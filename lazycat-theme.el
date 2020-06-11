@@ -361,12 +361,12 @@ theme face specs. These is a simplified spec. For example:
     (font-lock-regexp-grouping-backslash :inherit 'bold :foreground operators)
     (font-lock-regexp-grouping-construct :inherit 'bold :foreground operators)
 
-    ;; mode-line
-    (mode-line           :background bg     :foreground fg     :distant-foreground bg       :height 0.1)
-    (mode-line-inactive  :background bg-alt :foreground fg-alt :distant-foreground bg-alt   :height 0.1)
-    (mode-line-emphasis  :foreground highlight :distant-foreground bg   :height 0.1)
-    (mode-line-highlight :inherit 'highlight :distant-foreground bg     :height 0.1)
-    (mode-line-buffer-id :weight 'bold  :height 0.1)
+    ;; ;; mode-line
+    ;; (mode-line           :background bg     :foreground fg     :distant-foreground bg       :height 0.1)
+    ;; (mode-line-inactive  :background bg-alt :foreground fg-alt :distant-foreground bg-alt   :height 0.1)
+    ;; (mode-line-emphasis  :foreground highlight :distant-foreground bg   :height 0.1)
+    ;; (mode-line-highlight :inherit 'highlight :distant-foreground bg     :height 0.1)
+    ;; (mode-line-buffer-id :weight 'bold  :height 0.1)
 
     ;; header-line.
     (header-line :inherit 'default :height (face-attribute 'default :height))
